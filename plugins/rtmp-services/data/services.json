@@ -306,6 +306,32 @@
             }
         },
         {
+            "name": "StudioSessions.tv",
+            "common": true,
+            "servers": [
+                {
+                    "name": "United States (East / Virginia)",
+                    "url": "rtmp://us-east.in.studiosessions.tv/live"
+                },
+                {
+                    "name": "United States (West / California)",
+                    "url": "rtmp://us-west.in.studiosessions.tv/live"
+                },
+                {
+                    "name": "Europe (West / Ireland)",
+                    "url": "rtmp://eu-west.in.studiosessions.tv/live"
+                },
+                {
+                    "name": "Europe (Central / Frankfurt)",
+                    "url": "rtmp://eu-central.in.studiosessions.tv/live"
+                }
+            ],
+            "recommended": {
+                "max video bitrate": 1500,
+                "max audio bitrate": 320
+            }
+        },
+        {
             "name": "WatchPeopleCode.com",
             "servers": [
                 {
